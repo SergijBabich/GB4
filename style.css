@@ -34,7 +34,7 @@ header::before{
 .header h1{
   color: #E4E4E4;
   text-align: center;
-  font-size: 60px;
+  font-size: 55px;
   margin: 30px 0px;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -54,6 +54,7 @@ box-shadow: 0px 5px 7px rgba(255,0,30,0.3);
 background-color: #f4213a;
 }
 .buttom a{
+
   color: #ffffff;
   width: 200px;
   display: block;
@@ -107,6 +108,10 @@ height: 50px;
   color: #000;
       font-size: 30px;
 }
+.project a {
+  color: black;
+}
+
 .project{
   display: flex;
   justify-content: center;
@@ -180,6 +185,9 @@ margin-bottom: 20px;
   height: 300px;
   flex-direction: column;
 }
+header{
+  height:800px;
+}
 
  }
   @media screen and (max-width: 758px) {
@@ -192,6 +200,9 @@ margin-bottom: 20px;
  }
 .content_items2{
       align-items: top;
+}
+.header h1{
+  font-size: 40px;
 }
  .pojbuttom{
    width: 250px;
@@ -239,7 +250,8 @@ margin-bottom: 20px;
   width: 100%;
 }
 .header h1{
-  font-size: 43px;
+  font-size: 33px;
+  margin: 0px 10px;
 }
 h3{
   font-size: 18px;
